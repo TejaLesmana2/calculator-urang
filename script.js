@@ -13,3 +13,7 @@ function equal() {
   var hasil = document.form.textView.value;
   document.form.textView.value = eval(hasil);
 }
+function percent() {
+  var persen = document.form.textView.value;
+  document.form.textView.value = eval(persen) / 100;
+}
